@@ -27,10 +27,10 @@ class _UserFormState extends State<UserForm> {
   //Don't forget to dispose them all too
   @override
   void dispose() {
+    super.dispose();
     calenderCont.dispose();
     firstNameCont.dispose();
     lastNameCont.dispose();
-    super.dispose();
   }
 
   @override
